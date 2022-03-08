@@ -179,6 +179,10 @@
   color: red;
 }
 
+.label_text {
+  color: #545658;
+}
+
 /* ネームホルダー */
 .full_name_holder {
   display: flex;
