@@ -31,14 +31,15 @@
               ここに続きのHTMLを書いていきましょう
             -->
             <!-- 名前 -->
+        
           <div class="full_name_holder">
             <div class="name_holder">
               <p class="text">苗字<span class="red_span">※</span></p>
-              <input type="text" name="last_name" class ="name_holder_text">
+              <input type="text" name="last_name" class ="name_holder_text" required>
             </div>
             <div class="name_holder">
               <p class="text">名前<span class="red_span">※</span></p>
-              <input type="text" name="first_name" class ="name_holder_text">
+              <input type="text" name="first_name" class ="name_holder_text" required>
             </div>
           </div>
           <!-- 性別 -->
@@ -71,19 +72,19 @@
             <div class="detail">
               <div class="email_parent parents">
                 <p class="text">Eメール<span class="red_span">※</span></p>
-                <input type="text" name="email" placeholder="ex)hoge@example.com" class="email_text text_box">
+                <input type="email" name="email" placeholder="ex)hoge@example.com" class="email_text text_box" required>
               </div>
               <div class="number_parent parents">
                 <p class="text">電話番号</p>
-                <input type="text" name="number" class="number_text text_box">
+                <input type="tel" name="number" class="number_text text_box">
               </div>
               <div class="password_parent parents">
                 <p class="text">パスワード<span class="red_span">※</span></p>
-                <input type="password" name="password" class="password_text text_box">
+                <input type="password" name="password" class="password_text text_box" required>
               </div>
               <div class="password_parent parents">
                 <p class="text">パスワード(確認用)<span class="red_span">※</span></p>
-                <input type="password" name="password" class="password_text text_box">
+                <input type="password" name="password" class="password_text text_box" required>
               </div>
             </div>
             <!-- チェックボックス -->
