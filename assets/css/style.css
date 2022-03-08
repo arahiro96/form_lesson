@@ -344,6 +344,7 @@
   width: 100%;
   height: 100px;
   padding: 3px;
+  border: 1px solid #d9d9d9;
   resize: none;
   outline: none;
 }
@@ -380,6 +381,7 @@
 .button_submit:active {
   background-color: white;
   color: #01bfbd;
+  border: 1px solid #d9d9d9;
 }
   
   
