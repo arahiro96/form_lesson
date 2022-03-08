@@ -199,13 +199,15 @@
 
 .name_holder_text {
   width: 250px;
-  border: 2px solid #d9d9d9;
-  border-radius: 4px;
   height: 30px;
+  color: #545658;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;  
+  outline: none;
 }
 
 .name_holder_text:focus {
-  outline-color: #01bfbd;
+  border: #a5c9a5 solid 1px;
 }
 
 /* Radiobox */
@@ -288,13 +290,15 @@
   .text_box {
   width: 100%;
   height: 30px;
-  border: 2px solid #d9d9d9;
-  border-radius: 4px;
+  color: #545658;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  outline: none;
 } 
 
 .text_box:focus {
-  outline-color: #01bfbd;
-}
+  border: #a5c9a5 solid 1px;
+  }
 
 /* チェックボックス */
 .check_box {
@@ -341,10 +345,11 @@
   height: 100px;
   padding: 3px;
   resize: none;
+  outline: none;
 }
 
 .textarea:focus {
-  outline-color: #01bfbd;;
+  border: #a5c9a5 solid 1px;
 }
   
 .button_parent {
@@ -369,6 +374,12 @@
 .button_submit:hover {
   cursor: pointer;
   background-color: #01a6a4;
+  transition: all .3s;
+}
+
+.button_submit:active {
+  background-color: white;
+  color: #01bfbd;
 }
   
   
