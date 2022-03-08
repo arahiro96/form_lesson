@@ -30,6 +30,88 @@
             <!--
               ここに続きのHTMLを書いていきましょう
             -->
+            <!-- 名前 -->
+          <div class="full_name_holder">
+            <div class="name_holder">
+              <p class="text">苗字<span class="red_span">※</span></p>
+              <input type="text" name="last_name" class ="name_holder_text">
+            </div>
+            <div class="name_holder">
+              <p class="text">名前<span class="red_span">※</span></p>
+              <input type="text" name="first_name" class ="name_holder_text">
+            </div>
+          </div>
+          <!-- 性別 -->
+          <div class="gender_radio parents">
+              <p class="text">性別</p>
+            
+              <label class="radio_box">
+                <input type="radio" id="radio_male" name="radio" class="radio_button">
+                <span>男性</span>
+              </label>
+              <label class="radio_box">
+                <input type="radio" id="radio_female" name="radio" class="radio_button">
+                <span>女性</span>
+              </label>
+              <label class="radio_box">
+                <input type="radio" id="radio_other" name="radio" class="radio_button">
+                <span>その他</span>
+              </label>
+            
+          </div>
+            <!-- 出身地 -->
+            <div class="place_parent parents">
+              <p class="text">出身</p>
+              <select name="place" id="place" class="select_place">
+                <option>東京</option>
+                <option>千葉</option>
+                <option>埼玉</option>
+                <option>神奈川</option>
+              </select>
+            </div>
+            <!-- 詳細 -->
+            <div class="detail">
+              <div class="email_parent parents">
+                <p class="text">Eメール<span class="red_span">※</span></p>
+                <input type="text" name="email" placeholder="ex)hoge@example.com" class="email_text text_box">
+              </div>
+              <div class="number_parent parents">
+                <p class="text">電話番号</p>
+                <input type="text" name="number" class="number_text text_box">
+              </div>
+              <div class="password_parent parents">
+                <p class="text">パスワード<span class="red_span">※</span></p>
+                <input type="password" name="password" class="password_text text_box">
+              </div>
+              <div class="password_parent parents">
+                <p class="text">パスワード(確認用)<span class="red_span">※</span></p>
+                <input type="password" name="password" class="password_text text_box">
+              </div>
+            </div>
+            <!-- チェックボックス -->
+            <div class="check_parent parents">
+              <p class="text">希望コース</p>
+              <div class="check_front check_box">
+              <input type="checkbox" name="front" id="front" class="check">
+              <label for="front" class="label">フロントエンド</label>
+              </div>
+              <div class="check_back check_box">
+                <input type="checkbox" name="back" id="back" class="check">
+                <label for="back" class="label">バックエンド</label>
+              </div>
+              <div class="check_app check_box">
+                <input type="checkbox" name="app" id="app" class="check">
+                <label for="app" class="label">アプリ</label>
+              </div>
+            </div>
+            <!-- 備考 -->
+            <div class="note_parent parents">
+              <p class="text">備考</p>
+              <textarea class="textarea" placeholder="何かあればご記入ください"></textarea>
+            </div>
+            <div class="button_parent">
+              <input type="submit" value="アカウント作成" class="button_submit">
+            </div>
             <p class="agreement">アカウントを作成することにより、<a class="link-color" href>利用規約</a>と<a class="link-color" href>プライバシーポリシー</a>に同意するものとします。</p>
           </form>
         </div>
@@ -37,6 +119,7 @@
           <p>すでにアカウントをお持ちですか？ <a class="link-color" href>ログイン</a></p>
           <a class="link-color resend-mail" href>認証メールが届きませんか？</a>
         </div>
+
       </div>
     </section>
   </body>

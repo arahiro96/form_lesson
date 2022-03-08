@@ -162,3 +162,212 @@
 .resend-mail {
   display: inline-block;
 }
+
+/* 共通 */
+.parents {
+  margin-top: 20px;
+}
+
+.text {
+  font-size: 12px;
+  color: #545658;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.red_span {
+  color: red;
+}
+
+/* ネームホルダー */
+.full_name_holder {
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.name_holder {
+  margin-left: 5px;
+}
+
+.name_holder:first-child {
+  margin-left: 0;
+}
+
+.name_holder_text {
+  width: 250px;
+  border: 2px solid #d9d9d9;
+  border-radius: 4px;
+  height: 30px;
+}
+
+.name_holder_text:focus {
+  outline-color: #01bfbd;
+}
+
+
+/* Radiobox */
+
+.gender_radio {
+  margin-top: 15px;
+}
+
+.gender_radio p {
+  margin-bottom: 5px;
+}
+
+.radio_buttons {
+  display: flex;
+}
+
+.radio_box:first-child {
+  margin-left: 0;
+}
+
+.radio_box span {
+    position: relative;
+    display: inline-block;
+    padding: 3px 3px 3px 20px;
+}
+
+.radio_box span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 14px;
+    width: 14px;
+    background-color: #fbfbfb;
+    border: 1px solid #d9d9d9;
+    border-radius: 50%;
+}
+
+.radio_button:checked + span::after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 50%;
+    height: 8px;
+    width: 8px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: #01bfbd;
+}
+
+.radio_button {
+  display: none;
+  position: relative;
+  margin-left: 10px;
+}
+
+.radio_box {
+  margin-left: 10px;
+  display: inline-block;
+ 
+}
+
+.radio_box:first-child {
+  margin-left: 0;
+}
+.label {
+  color:#545658;
+}
+
+/* 出身 */
+
+.select_place {
+  width: 250px;
+  height: 30px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  outline: none;
+}
+
+  .text_box {
+  width: 100%;
+  height: 30px;
+  border: 2px solid #d9d9d9;
+  border-radius: 4px;
+} 
+
+.text_box:focus {
+  outline-color: #01bfbd;
+}
+
+/* チェックボックス */
+
+.check_box {
+  margin-top: 5px;
+}
+
+.check {
+  display: none;
+}
+
+.label {
+  position: relative;
+   padding-left: 25px;
+}
+
+.label::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 15px;
+  width: 15px;
+  margin-top: -8px;
+  border: 1px solid #d9d9d9;
+}
+
+.check:checked + ::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 50%;
+  transform: rotate(45deg);
+  height: 16px;
+  width: 8px;
+  margin-top: -12px;
+  border-right: 3px solid #01bfbd;
+  border-bottom: 3px solid #01bfbd;
+}
+
+/* 備考欄 */
+
+.textarea {
+  width: 100%;
+  height: 100px;
+  padding: 3px;
+}
+
+.textarea:focus {
+  outline-color: #01bfbd;;
+}
+  
+.button_parent {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #01a6a4;
+  border: none;
+  border-radius: 5px;
+}
+
+.button_submit {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #01bfbd;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+}
+  
+  
+
+
+
+
+  
+  
