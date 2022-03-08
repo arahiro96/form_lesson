@@ -369,12 +369,12 @@
   border-radius: 5px;
   color: #fff;
   border: none;
+  transition: all .3s;
 }
 
 .button_submit:hover {
   cursor: pointer;
   background-color: #01a6a4;
-  transition: all .3s;
 }
 
 .button_submit:active {
